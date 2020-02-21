@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "toms-bookmarks-app",
+  "alias": "bookmarks-app-nine.now.sh",
   "name": "bookmarks-app",
   "routes": [
     {
@@ -11,10 +11,5 @@
       "src": ".*",
       "dest": "/index.html"
     }
-  ],
-  "build": {
-    "env": {
-      "API_KEY": "@api_key"
-    }
-  }
+  ]
 }
